@@ -3,7 +3,6 @@ import tensorflow as tf
 from tensorflow import keras
 import pandas as pd
 from keras.datasets import fashion_mnist
-import matplotlib.pyplot as plt
 from keras import models
 from keras import layers
 from keras.utils import to_categorical
