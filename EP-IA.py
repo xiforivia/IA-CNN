@@ -44,6 +44,7 @@ def criar_modelo(conv_layers, filters, dense_size):
     return model
 
 def criar_grafico(df, titulo):
+    plt.cla()
     plt.plot(df['acuracia'], 'b', marker='.', label='acurácia', linewidth=3, markersize=12)
     plt.title(titulo)
     plt.legend()
@@ -220,7 +221,7 @@ for dropout_rate in dropout_rates:
         melhor_acc = media_acc_dropout
         melhor_dropout = dropout_rate
 print(f"Portanto, o melhor dropout é {melhor_dropout}, que possui {round(melhor_acc, 1)} de acurácia.")
-dfDropout = pd.DataFrame(dct_dense).T
+dfDropout = pd.DataFrame(dct_dropout).T
 titulo = "Acurácia de cada porcentagem de dropout"
 criar_grafico(dfDropout, titulo)
 
@@ -323,16 +324,17 @@ print(f"Essa acurácia significa que o modelo usando layer: {melhor_layer}, filt
 print(f"Portanto, possui em média {round(media_acc_dataaug, 1)} de acurácia.")
 
 
-d = {'acuracia':[dct_layer[melhor_layer], dct_filters[melhor_filter], dct_dense[melhor_dense], dct_dropout[melhor_dropout], dct_batchnorm['acuracia'], dct_dataaug['acuracia']]}
+d = {'acuracia':[dct_layer[str(melhor_layer)]['acuracia'], dct_filters[str(melhor_filter)]['acuracia'], dct_dense[str(melhor_dense)]['acuracia'], dct_dropout[str(melhor_dropout)]['acuracia'], dct_batchnorm['acuracia'], dct_dataaug['acuracia']]}
+print(d)
 dfFinal = pd.DataFrame(data=d, index=['convolução-pooling','feature maps', 'camada densa', 'dropout', 'batch normalization', 'data augmentation'])
 
+plt.cla()
 plt.figure(figsize=(10,10)) 
 plt.plot(dfFinal, 'b', marker='.', label='Acurácia', linewidth=3, markersize=12)
 titulo = "Mudança na Acurácia após cada modificação"
 plt.title(titulo)
 plt.legend(loc='upper left')
 plt.savefig(titulo+".png", format='png', dpi=300, facecolor='white', bbox_inches='tight')
-plt.show()
 
 
 sys.stdout = sys.__stdout__
