@@ -47,8 +47,7 @@ def criar_grafico(df, titulo):
     plt.plot(df['acuracia'], 'b', marker='.', label='acurácia', linewidth=3, markersize=12)
     plt.title(titulo)
     plt.legend()
-    plt.savefig(titulo+".png", format='.png', dpi=300, facecolor='white')
-    plt.show()
+    plt.savefig(titulo+".png", format='png', dpi=300, facecolor='white')
 
 ### Main
 
