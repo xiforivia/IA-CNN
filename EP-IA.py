@@ -160,7 +160,7 @@ for dense_size in dense_size_list:
         melhor_dense = dense_size
 print(f"Portanto, o melhor tamanho da camada densa é {melhor_dense}, que possui {round(melhor_acc, 1)} de acurácia.")
 dfDense = pd.DataFrame(dct_dense).T
-titulo = "Acurácia de cada tamanho da camada densa"
+titulo = "Acurácia pra cada quantidade de neurônios da camada densa"
 criar_grafico(dfDense, titulo)
 
 # Resumo
