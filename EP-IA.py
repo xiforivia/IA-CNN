@@ -6,6 +6,8 @@ from keras.utils import to_categorical
 from sklearn.model_selection import KFold
 import numpy as np
 import sys
+import pandas as pd
+import matplotlib.pyplot as plt
 
 file = open('resultado.txt', 'w')
 sys.stdout = file
@@ -41,6 +43,13 @@ def criar_modelo(conv_layers, filters, dense_size):
     model.compile(optimizer = 'rmsprop', loss = 'categorical_crossentropy', metrics = ['accuracy'])
     return model
 
+def criar_grafico(df, titulo):
+    plt.plot(df['acuracia'], 'b', marker='.', label='acurácia', linewidth=3, markersize=12)
+    plt.title(titulo)
+    plt.legend()
+    plt.savefig(titulo+".png", format='.png', dpi=300, facecolor='white')
+    plt.show()
+
 ### Main
 
 train_images, train_labels, test_images, test_labels = pre_processamento()
@@ -63,7 +72,6 @@ melhor_layer = 0
 for layer in conv_layers_list:
     fold_no = 1 #contador
     acc_per_fold = [] #acurácia de cada fold
-    loss_per_fold = [] #acurácia de cada fold
     for train, test in cv.split(train_images, train_labels): #pra cada fold
         print(f"Treinando fold {fold_no}, com {layer} camada(s) de convolução-pooling" )
         train_X = train_images[train]
@@ -72,13 +80,11 @@ for layer in conv_layers_list:
         model.fit(train_X, train_labels[train], epochs=epochs, batch_size=batch_size, verbose=2)
         test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2)
         acc_per_fold.append(test_acc * 100)
-        loss_per_fold.append(test_loss * 100)
         fold_no = fold_no + 1
 
     media_acc_layer = sum(acc_per_fold)/len(acc_per_fold)
-    media_loss_layer = sum(loss_per_fold)/len(loss_per_fold)
 
-    dct_layer.update({layer: {"acuracia": media_acc_layer, "loss": media_loss_layer}})
+    dct_layer.update({str(layer): {"acuracia": media_acc_layer}})
 
     print(f"Média acurácia dos 5 folds pra {layer} camada(s) de convolução-pooling:", media_acc_layer)
     print(f"Essa acurácia significa que o modelo usando {layer} camada(s) de convolução-pooling, filter: {filters} e tamanho da camada densa: {dense_size} é capaz de classificar corretamente em média {round(media_acc_layer, 1)}% das imagens")
@@ -86,6 +92,9 @@ for layer in conv_layers_list:
         melhor_acc = media_acc_layer
         melhor_layer = layer
 print(f"Portanto, a melhor quantidade de camada(s) de convolução-pooling é {melhor_layer}, que possui {round(melhor_acc, 1)} de acurácia.")
+dfLayer = pd.DataFrame(dct_layer).T
+titulo = "Acurácia de cada qtde de camadas de convolução-pooling"
+criar_grafico(dfLayer, titulo)
 
 # --------- Testar diferentes quantidades de feature maps (filters) ------------
 
@@ -97,7 +106,6 @@ melhor_filter = 0
 for filters in filters_list:
     fold_no = 1 #contador
     acc_per_fold = [] #acurácia de cada fold
-    loss_per_fold = []
     for train, test in cv.split(train_images, train_labels):
         print(f"Treinando fold {fold_no}, com {filters} filters" )
         train_X = train_images[train]
@@ -106,13 +114,11 @@ for filters in filters_list:
         model.fit(train_X, train_labels[train], epochs=epochs, batch_size=batch_size, verbose=2)
         test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2)
         acc_per_fold.append(test_acc * 100)
-        loss_per_fold.append(test_loss * 100)
         fold_no = fold_no + 1
 
     media_acc_filters = sum(acc_per_fold)/len(acc_per_fold)
-    media_loss_filters = sum(loss_per_fold)/len(loss_per_fold)
 
-    dct_filters.update({filters: {"acuracia": media_acc_filters, "loss": media_loss_filters}})
+    dct_filters.update({str(filters): {"acuracia": media_acc_filters}})
 
     print(f"Média acurácia dos 5 folds pra {filters} filters:", media_acc_filters)
     print(f"Essa acurácia significa que o modelo usando {melhor_layer} camada(s) de convolução-pooling, filter: {filters} e tamanho da camada densa: {dense_size} é capaz de classificar corretamente em média {round(media_acc_filters, 1)}% das imagens")
@@ -120,6 +126,9 @@ for filters in filters_list:
         melhor_acc = media_acc_filters
         melhor_filter = filters
 print(f"Portanto, a melhor quantidade de filters é {melhor_filter}, que possui {round(melhor_acc, 1)} de acurácia.")
+dfFilter = pd.DataFrame(dct_filters).T
+titulo = "Acurácia de cada qtde de feature maps"
+criar_grafico(dfFilter, titulo)
 
 # --------- Testar diferentes tamanhos de camada densa ------------
 
@@ -131,7 +140,6 @@ melhor_dense = 0
 for dense_size in dense_size_list:
     fold_no = 1 #contador
     acc_per_fold = [] #acurácia de cada fold
-    loss_per_fold = []
     for train, test in cv.split(train_images, train_labels): #pra cada fold
         print(f"Treinando fold {fold_no}, com tamanho da camada densa: {dense_size}" )
         train_X = train_images[train]
@@ -140,13 +148,11 @@ for dense_size in dense_size_list:
         model.fit(train_X, train_labels[train], epochs=epochs, batch_size=batch_size, verbose=2)
         test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2)
         acc_per_fold.append(test_acc * 100)
-        loss_per_fold.append(test_loss * 100)
         fold_no = fold_no + 1
 
     media_acc_dense = sum(acc_per_fold)/len(acc_per_fold)
-    media_loss_dense = sum(loss_per_fold)/len(loss_per_fold)
 
-    dct_dense.update({dense_size: {"acuracia": media_acc_dense, "loss": media_loss_dense}})
+    dct_dense.update({str(dense_size): {"acuracia": media_acc_dense}})
 
     print(f"Média acurácia dos 5 folds pra tamanho da camada densa: {dense_size}:", media_acc_dense)
     print(f"Essa acurácia significa que o modelo usando {melhor_layer} camada(s) de convolução-pooling, filter: {melhor_filter} e tamanho da camada densa: {dense_size} é capaz de classificar corretamente em média {round(media_acc_dense, 1)}% das imagens")
@@ -154,6 +160,9 @@ for dense_size in dense_size_list:
         melhor_acc = media_acc_dense
         melhor_dense = dense_size
 print(f"Portanto, o melhor tamanho da camada densa é {melhor_dense}, que possui {round(melhor_acc, 1)} de acurácia.")
+dfDense = pd.DataFrame(dct_dense).T
+titulo = "Acurácia de cada tamanho da camada densa"
+criar_grafico(dfDense, titulo)
 
 # Resumo
 print(f"Ao final, a melhor combinação foi: \n{melhor_layer} camada(s) de convolução-pooling, {melhor_filter} filter(s) e tamanho da camada densa: {melhor_dense}")
@@ -192,7 +201,6 @@ melhor_dropout = 0
 for dropout_rate in dropout_rates:
     fold_no = 1 #contador
     acc_per_fold = [] #acurácia de cada fold
-    loss_per_fold = []
     for train, test in cv.split(train_images, train_labels): #pra cada fold
         print(f"Treinando fold {fold_no}, com {dropout_rate} de dropout_rate" )
         train_X = train_images[train]
@@ -201,13 +209,11 @@ for dropout_rate in dropout_rates:
         model.fit(train_X, train_labels[train], epochs=epochs, batch_size=batch_size, verbose=2)
         test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2, )
         acc_per_fold.append(test_acc * 100)
-        loss_per_fold.append(test_loss * 100)
         fold_no = fold_no + 1
 
     media_acc_dropout = sum(acc_per_fold)/len(acc_per_fold)
-    media_loss_dropout = sum(loss_per_fold)/len(loss_per_fold)
 
-    dct_dropout.update({dropout_rate: {"acuracia": media_acc_dropout, "loss": media_loss_dropout}})
+    dct_dropout.update({str(dropout_rate): {"acuracia": media_acc_dropout}})
 
     print(f"Média acurácia dos 5 folds pra {dropout_rate} de dropout_rate:", media_acc_dropout)
     print(f"Essa acurácia significa que o modelo usando layer: {melhor_layer}, filter: {melhor_filter}, tamanho da camada densa: {melhor_dense} e dropout: {dropout_rate} é capaz de classificar corretamente em média {round(media_acc_dropout, 1)}% das imagens")
@@ -215,6 +221,9 @@ for dropout_rate in dropout_rates:
         melhor_acc = media_acc_dropout
         melhor_dropout = dropout_rate
 print(f"Portanto, o melhor dropout é {melhor_dropout}, que possui {round(melhor_acc, 1)} de acurácia.")
+dfDropout = pd.DataFrame(dct_dense).T
+titulo = "Acurácia de cada porcentagem de dropout"
+criar_grafico(dfDropout, titulo)
 
 # ----- Batch Normalization -----
 
@@ -243,8 +252,7 @@ def criar_modelo_com_batchnorm(conv_layers, filters, dense_size, dropout_rate):
 
 dct_batchnorm = {}
 fold_no = 1 #contador
-acc_per_fold = [] #acurácia de cada fold
-loss_per_fold = []
+acc_per_fold = [] #acurácia de cada fol
 for train, test in cv.split(train_images, train_labels): #pra cada fold
     print(f"Treinando fold {fold_no}, com batch normalization" )
     train_X = train_images[train]
@@ -253,13 +261,11 @@ for train, test in cv.split(train_images, train_labels): #pra cada fold
     model.fit(train_X, train_labels[train], epochs=epochs, batch_size=batch_size, verbose=2)
     test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2)
     acc_per_fold.append(test_acc * 100)
-    loss_per_fold.append(test_loss * 100)
     fold_no = fold_no + 1
 
 media_acc_batchnorm = sum(acc_per_fold)/len(acc_per_fold)
-media_loss_batchnorm  = sum(loss_per_fold)/len(loss_per_fold)
 
-dct_batchnorm.update({"acuracia": media_acc_batchnorm , "loss": media_loss_batchnorm })
+dct_batchnorm.update({"acuracia": media_acc_batchnorm})
 
 print(f"Média acurácia dos 5 folds com batch normalization:", media_acc_batchnorm)
 print(f"Essa acurácia significa que o modelo usando layer: {melhor_layer}, filter: {melhor_filter}, tamanho da camada densa: {melhor_dense}, dropout: {melhor_dropout} e com batch normalization é capaz de classificar corretamente em média {round(media_acc_batchnorm, 1)}% das imagens")
@@ -288,8 +294,7 @@ augmenter = ImageDataGenerator(
 
 dct_dataaug = {}
 fold_no = 1 #contador
-acc_per_fold = [] #acurácia de cada fold
-loss_per_fold = [] #loss de cada fold
+acc_per_fold = [] #acurácia de cada fol #loss de cada fold
 for train, test in cv.split(train_images, train_labels): #pra cada fold
     print(f"Treinando fold {fold_no}, com data augmentation")
     
@@ -307,18 +312,29 @@ for train, test in cv.split(train_images, train_labels): #pra cada fold
 
     test_loss, test_acc = model.evaluate(test_X, train_labels[test], verbose=2)
     acc_per_fold.append(test_acc * 100)
-    loss_per_fold.append(test_loss * 100)
     fold_no = fold_no + 1
 
 media_acc_dataaug = sum(acc_per_fold)/len(acc_per_fold)
-media_loss_dataaug  = sum(loss_per_fold)/len(loss_per_fold)
 
-dct_dataaug.update({"acuracia": media_acc_dataaug , "loss": media_loss_dataaug })
+dct_dataaug.update({"acuracia": media_acc_dataaug})
 
 print(f"Média acurácia dos 5 folds com data augmentation:", media_acc_dataaug)
 print(f"Essa acurácia significa que o modelo usando layer: {melhor_layer}, filter: {melhor_filter}, tamanho da camada densa: {melhor_dense}, dropout: {melhor_dropout}, com batch normalization e com data augmentation é capaz de classificar corretamente em média {round(media_acc_dataaug, 1)}% das imagens")
 
 print(f"Portanto, possui em média {round(media_acc_dataaug, 1)} de acurácia.")
+
+
+d = {'acuracia':[dct_layer[melhor_layer], dct_filters[melhor_filter], dct_dense[melhor_dense], dct_dropout[melhor_dropout], dct_batchnorm['acuracia'], dct_dataaug['acuracia']]}
+dfFinal = pd.DataFrame(data=d, index=['convolução-pooling','feature maps', 'camada densa', 'dropout', 'batch normalization', 'data augmentation'])
+
+plt.figure(figsize=(10,10)) 
+plt.plot(dfFinal, 'b', marker='.', label='Acurácia', linewidth=3, markersize=12)
+titulo = "Mudança na Acurácia após cada modificação"
+plt.title(titulo)
+plt.legend(loc='upper left')
+plt.savefig(titulo+".png", format='png', dpi=300, facecolor='white', bbox_inches='tight')
+plt.show()
+
 
 sys.stdout = sys.__stdout__
 file.close()
