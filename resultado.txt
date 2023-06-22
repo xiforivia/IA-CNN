@@ -1,0 +1,1059 @@
+Treinando fold 1, com 1 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 14s - loss: 0.4826 - accuracy: 0.8285 - 14s/epoch - 19ms/step
+Epoch 2/5
+750/750 - 14s - loss: 0.3138 - accuracy: 0.8886 - 14s/epoch - 19ms/step
+Epoch 3/5
+750/750 - 14s - loss: 0.2656 - accuracy: 0.9052 - 14s/epoch - 19ms/step
+Epoch 4/5
+750/750 - 14s - loss: 0.2349 - accuracy: 0.9158 - 14s/epoch - 18ms/step
+Epoch 5/5
+750/750 - 14s - loss: 0.2135 - accuracy: 0.9230 - 14s/epoch - 18ms/step
+375/375 - 2s - loss: 0.2562 - accuracy: 0.9078 - 2s/epoch - 4ms/step
+Treinando fold 2, com 1 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 14s - loss: 0.4740 - accuracy: 0.8336 - 14s/epoch - 19ms/step
+Epoch 2/5
+750/750 - 14s - loss: 0.3097 - accuracy: 0.8892 - 14s/epoch - 18ms/step
+Epoch 3/5
+750/750 - 14s - loss: 0.2651 - accuracy: 0.9050 - 14s/epoch - 18ms/step
+Epoch 4/5
+750/750 - 14s - loss: 0.2355 - accuracy: 0.9139 - 14s/epoch - 18ms/step
+Epoch 5/5
+750/750 - 14s - loss: 0.2111 - accuracy: 0.9236 - 14s/epoch - 18ms/step
+375/375 - 2s - loss: 0.2571 - accuracy: 0.9099 - 2s/epoch - 4ms/step
+Treinando fold 3, com 1 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 14s - loss: 0.4988 - accuracy: 0.8221 - 14s/epoch - 19ms/step
+Epoch 2/5
+750/750 - 14s - loss: 0.3180 - accuracy: 0.8867 - 14s/epoch - 19ms/step
+Epoch 3/5
+750/750 - 14s - loss: 0.2698 - accuracy: 0.9020 - 14s/epoch - 18ms/step
+Epoch 4/5
+750/750 - 14s - loss: 0.2389 - accuracy: 0.9136 - 14s/epoch - 18ms/step
+Epoch 5/5
+750/750 - 14s - loss: 0.2166 - accuracy: 0.9204 - 14s/epoch - 19ms/step
+375/375 - 2s - loss: 0.2573 - accuracy: 0.9083 - 2s/epoch - 4ms/step
+Treinando fold 4, com 1 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 14s - loss: 0.4672 - accuracy: 0.8342 - 14s/epoch - 19ms/step
+Epoch 2/5
+750/750 - 14s - loss: 0.3048 - accuracy: 0.8911 - 14s/epoch - 18ms/step
+Epoch 3/5
+750/750 - 14s - loss: 0.2599 - accuracy: 0.9069 - 14s/epoch - 18ms/step
+Epoch 4/5
+750/750 - 14s - loss: 0.2300 - accuracy: 0.9165 - 14s/epoch - 18ms/step
+Epoch 5/5
+750/750 - 14s - loss: 0.2070 - accuracy: 0.9245 - 14s/epoch - 18ms/step
+375/375 - 2s - loss: 0.2720 - accuracy: 0.9028 - 2s/epoch - 4ms/step
+Treinando fold 5, com 1 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 14s - loss: 0.4783 - accuracy: 0.8328 - 14s/epoch - 19ms/step
+Epoch 2/5
+750/750 - 14s - loss: 0.3063 - accuracy: 0.8912 - 14s/epoch - 18ms/step
+Epoch 3/5
+750/750 - 14s - loss: 0.2613 - accuracy: 0.9051 - 14s/epoch - 18ms/step
+Epoch 4/5
+750/750 - 14s - loss: 0.2311 - accuracy: 0.9153 - 14s/epoch - 18ms/step
+Epoch 5/5
+750/750 - 14s - loss: 0.2083 - accuracy: 0.9236 - 14s/epoch - 18ms/step
+375/375 - 2s - loss: 0.2896 - accuracy: 0.8984 - 2s/epoch - 4ms/step
+Média acurácia dos 5 folds pra 1 camada(s) de convolução-pooling: 90.54499983787537
+Essa acurácia significa que o modelo usando 1 camada(s) de convolução-pooling, filter: 32 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 90.5% das imagens
+Treinando fold 1, com 2 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 22s - loss: 0.5209 - accuracy: 0.8114 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3249 - accuracy: 0.8823 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2760 - accuracy: 0.9005 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2458 - accuracy: 0.9106 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2231 - accuracy: 0.9189 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2592 - accuracy: 0.9075 - 2s/epoch - 6ms/step
+Treinando fold 2, com 2 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 22s - loss: 0.4999 - accuracy: 0.8172 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3234 - accuracy: 0.8832 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 21s - loss: 0.2777 - accuracy: 0.9000 - 21s/epoch - 28ms/step
+Epoch 4/5
+750/750 - 21s - loss: 0.2459 - accuracy: 0.9101 - 21s/epoch - 28ms/step
+Epoch 5/5
+750/750 - 21s - loss: 0.2241 - accuracy: 0.9179 - 21s/epoch - 28ms/step
+375/375 - 2s - loss: 0.2452 - accuracy: 0.9152 - 2s/epoch - 5ms/step
+Treinando fold 3, com 2 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 22s - loss: 0.5111 - accuracy: 0.8143 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3248 - accuracy: 0.8841 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2748 - accuracy: 0.9002 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2438 - accuracy: 0.9122 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2230 - accuracy: 0.9185 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2399 - accuracy: 0.9107 - 2s/epoch - 6ms/step
+Treinando fold 4, com 2 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 22s - loss: 0.5234 - accuracy: 0.8122 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3309 - accuracy: 0.8815 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2814 - accuracy: 0.8977 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2500 - accuracy: 0.9085 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2254 - accuracy: 0.9183 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2484 - accuracy: 0.9115 - 2s/epoch - 6ms/step
+Treinando fold 5, com 2 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 22s - loss: 0.4973 - accuracy: 0.8190 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3236 - accuracy: 0.8828 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2774 - accuracy: 0.8999 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2475 - accuracy: 0.9095 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2245 - accuracy: 0.9196 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2570 - accuracy: 0.9088 - 2s/epoch - 6ms/step
+Média acurácia dos 5 folds pra 2 camada(s) de convolução-pooling: 91.07499957084656
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 32 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 91.1% das imagens
+Treinando fold 1, com 3 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 26s - loss: 0.6276 - accuracy: 0.7693 - 26s/epoch - 35ms/step
+Epoch 2/5
+750/750 - 25s - loss: 0.3671 - accuracy: 0.8660 - 25s/epoch - 33ms/step
+Epoch 3/5
+750/750 - 25s - loss: 0.3093 - accuracy: 0.8857 - 25s/epoch - 33ms/step
+Epoch 4/5
+750/750 - 25s - loss: 0.2772 - accuracy: 0.8976 - 25s/epoch - 33ms/step
+Epoch 5/5
+750/750 - 25s - loss: 0.2534 - accuracy: 0.9076 - 25s/epoch - 33ms/step
+375/375 - 2s - loss: 0.2700 - accuracy: 0.9043 - 2s/epoch - 6ms/step
+Treinando fold 2, com 3 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 26s - loss: 0.6257 - accuracy: 0.7685 - 26s/epoch - 34ms/step
+Epoch 2/5
+750/750 - 25s - loss: 0.3645 - accuracy: 0.8671 - 25s/epoch - 33ms/step
+Epoch 3/5
+750/750 - 25s - loss: 0.3125 - accuracy: 0.8849 - 25s/epoch - 33ms/step
+Epoch 4/5
+750/750 - 25s - loss: 0.2818 - accuracy: 0.8977 - 25s/epoch - 33ms/step
+Epoch 5/5
+750/750 - 25s - loss: 0.2589 - accuracy: 0.9060 - 25s/epoch - 33ms/step
+375/375 - 2s - loss: 0.2824 - accuracy: 0.8993 - 2s/epoch - 6ms/step
+Treinando fold 3, com 3 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 25s - loss: 0.6000 - accuracy: 0.7843 - 25s/epoch - 34ms/step
+Epoch 2/5
+750/750 - 25s - loss: 0.3609 - accuracy: 0.8692 - 25s/epoch - 33ms/step
+Epoch 3/5
+750/750 - 25s - loss: 0.3071 - accuracy: 0.8873 - 25s/epoch - 33ms/step
+Epoch 4/5
+750/750 - 25s - loss: 0.2737 - accuracy: 0.9002 - 25s/epoch - 33ms/step
+Epoch 5/5
+750/750 - 25s - loss: 0.2498 - accuracy: 0.9089 - 25s/epoch - 33ms/step
+375/375 - 2s - loss: 0.2539 - accuracy: 0.9068 - 2s/epoch - 6ms/step
+Treinando fold 4, com 3 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 27s - loss: 0.6005 - accuracy: 0.7805 - 27s/epoch - 36ms/step
+Epoch 2/5
+750/750 - 29s - loss: 0.3664 - accuracy: 0.8670 - 29s/epoch - 39ms/step
+Epoch 3/5
+750/750 - 27s - loss: 0.3087 - accuracy: 0.8870 - 27s/epoch - 36ms/step
+Epoch 4/5
+750/750 - 26s - loss: 0.2793 - accuracy: 0.8971 - 26s/epoch - 35ms/step
+Epoch 5/5
+750/750 - 25s - loss: 0.2563 - accuracy: 0.9045 - 25s/epoch - 34ms/step
+375/375 - 2s - loss: 0.2701 - accuracy: 0.9019 - 2s/epoch - 6ms/step
+Treinando fold 5, com 3 camada(s) de convolução-pooling
+Epoch 1/5
+750/750 - 26s - loss: 0.6043 - accuracy: 0.7789 - 26s/epoch - 34ms/step
+Epoch 2/5
+750/750 - 25s - loss: 0.3656 - accuracy: 0.8664 - 25s/epoch - 33ms/step
+Epoch 3/5
+750/750 - 25s - loss: 0.3108 - accuracy: 0.8863 - 25s/epoch - 33ms/step
+Epoch 4/5
+750/750 - 25s - loss: 0.2769 - accuracy: 0.8970 - 25s/epoch - 34ms/step
+Epoch 5/5
+750/750 - 25s - loss: 0.2535 - accuracy: 0.9079 - 25s/epoch - 33ms/step
+375/375 - 2s - loss: 0.2703 - accuracy: 0.9022 - 2s/epoch - 6ms/step
+Média acurácia dos 5 folds pra 3 camada(s) de convolução-pooling: 90.29000163078308
+Essa acurácia significa que o modelo usando 3 camada(s) de convolução-pooling, filter: 32 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 90.3% das imagens
+Portanto, a melhor quantidade de camada(s) de convolução-pooling é 2, que possui 91.1 de acurácia.
+Treinando fold 1, com 16 filters
+Epoch 1/5
+750/750 - 13s - loss: 0.5820 - accuracy: 0.7866 - 13s/epoch - 17ms/step
+Epoch 2/5
+750/750 - 13s - loss: 0.3704 - accuracy: 0.8658 - 13s/epoch - 17ms/step
+Epoch 3/5
+750/750 - 12s - loss: 0.3141 - accuracy: 0.8860 - 12s/epoch - 15ms/step
+Epoch 4/5
+750/750 - 12s - loss: 0.2816 - accuracy: 0.8972 - 12s/epoch - 16ms/step
+Epoch 5/5
+750/750 - 12s - loss: 0.2591 - accuracy: 0.9055 - 12s/epoch - 16ms/step
+375/375 - 2s - loss: 0.2857 - accuracy: 0.8976 - 2s/epoch - 5ms/step
+Treinando fold 2, com 16 filters
+Epoch 1/5
+750/750 - 13s - loss: 0.5548 - accuracy: 0.7981 - 13s/epoch - 17ms/step
+Epoch 2/5
+750/750 - 12s - loss: 0.3590 - accuracy: 0.8702 - 12s/epoch - 16ms/step
+Epoch 3/5
+750/750 - 12s - loss: 0.3106 - accuracy: 0.8871 - 12s/epoch - 16ms/step
+Epoch 4/5
+750/750 - 12s - loss: 0.2795 - accuracy: 0.8982 - 12s/epoch - 16ms/step
+Epoch 5/5
+750/750 - 12s - loss: 0.2575 - accuracy: 0.9058 - 12s/epoch - 16ms/step
+375/375 - 2s - loss: 0.3177 - accuracy: 0.8843 - 2s/epoch - 5ms/step
+Treinando fold 3, com 16 filters
+Epoch 1/5
+750/750 - 13s - loss: 0.5495 - accuracy: 0.8012 - 13s/epoch - 17ms/step
+Epoch 2/5
+750/750 - 12s - loss: 0.3568 - accuracy: 0.8708 - 12s/epoch - 16ms/step
+Epoch 3/5
+750/750 - 12s - loss: 0.3109 - accuracy: 0.8891 - 12s/epoch - 16ms/step
+Epoch 4/5
+750/750 - 12s - loss: 0.2817 - accuracy: 0.8990 - 12s/epoch - 16ms/step
+Epoch 5/5
+750/750 - 12s - loss: 0.2606 - accuracy: 0.9054 - 12s/epoch - 16ms/step
+375/375 - 2s - loss: 0.2727 - accuracy: 0.9033 - 2s/epoch - 5ms/step
+Treinando fold 4, com 16 filters
+Epoch 1/5
+750/750 - 13s - loss: 0.5458 - accuracy: 0.8019 - 13s/epoch - 17ms/step
+Epoch 2/5
+750/750 - 12s - loss: 0.3576 - accuracy: 0.8714 - 12s/epoch - 16ms/step
+Epoch 3/5
+750/750 - 12s - loss: 0.3092 - accuracy: 0.8897 - 12s/epoch - 16ms/step
+Epoch 4/5
+750/750 - 12s - loss: 0.2778 - accuracy: 0.8994 - 12s/epoch - 16ms/step
+Epoch 5/5
+750/750 - 12s - loss: 0.2565 - accuracy: 0.9059 - 12s/epoch - 16ms/step
+375/375 - 2s - loss: 0.2824 - accuracy: 0.8988 - 2s/epoch - 5ms/step
+Treinando fold 5, com 16 filters
+Epoch 1/5
+750/750 - 13s - loss: 0.5647 - accuracy: 0.7958 - 13s/epoch - 18ms/step
+Epoch 2/5
+750/750 - 13s - loss: 0.3516 - accuracy: 0.8732 - 13s/epoch - 17ms/step
+Epoch 3/5
+750/750 - 12s - loss: 0.3033 - accuracy: 0.8899 - 12s/epoch - 15ms/step
+Epoch 4/5
+750/750 - 12s - loss: 0.2742 - accuracy: 0.9004 - 12s/epoch - 16ms/step
+Epoch 5/5
+750/750 - 12s - loss: 0.2546 - accuracy: 0.9060 - 12s/epoch - 16ms/step
+375/375 - 2s - loss: 0.2679 - accuracy: 0.9046 - 2s/epoch - 4ms/step
+Média acurácia dos 5 folds pra 16 filters: 89.77166533470154
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 16 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 89.8% das imagens
+Treinando fold 1, com 32 filters
+Epoch 1/5
+750/750 - 22s - loss: 0.5100 - accuracy: 0.8144 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3226 - accuracy: 0.8841 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2773 - accuracy: 0.8994 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2483 - accuracy: 0.9085 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2254 - accuracy: 0.9175 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2490 - accuracy: 0.9095 - 2s/epoch - 6ms/step
+Treinando fold 2, com 32 filters
+Epoch 1/5
+750/750 - 22s - loss: 0.5151 - accuracy: 0.8128 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3210 - accuracy: 0.8842 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2744 - accuracy: 0.9004 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2455 - accuracy: 0.9106 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2231 - accuracy: 0.9189 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2389 - accuracy: 0.9154 - 2s/epoch - 6ms/step
+Treinando fold 3, com 32 filters
+Epoch 1/5
+750/750 - 22s - loss: 0.5039 - accuracy: 0.8172 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3213 - accuracy: 0.8861 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2722 - accuracy: 0.9026 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2430 - accuracy: 0.9121 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2190 - accuracy: 0.9193 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2352 - accuracy: 0.9133 - 2s/epoch - 5ms/step
+Treinando fold 4, com 32 filters
+Epoch 1/5
+750/750 - 22s - loss: 0.5158 - accuracy: 0.8122 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3231 - accuracy: 0.8846 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2730 - accuracy: 0.9003 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2416 - accuracy: 0.9123 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2200 - accuracy: 0.9206 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2551 - accuracy: 0.9094 - 2s/epoch - 6ms/step
+Treinando fold 5, com 32 filters
+Epoch 1/5
+750/750 - 22s - loss: 0.5053 - accuracy: 0.8189 - 22s/epoch - 30ms/step
+Epoch 2/5
+750/750 - 22s - loss: 0.3274 - accuracy: 0.8812 - 22s/epoch - 29ms/step
+Epoch 3/5
+750/750 - 22s - loss: 0.2796 - accuracy: 0.8974 - 22s/epoch - 29ms/step
+Epoch 4/5
+750/750 - 22s - loss: 0.2496 - accuracy: 0.9094 - 22s/epoch - 29ms/step
+Epoch 5/5
+750/750 - 22s - loss: 0.2268 - accuracy: 0.9169 - 22s/epoch - 29ms/step
+375/375 - 2s - loss: 0.2484 - accuracy: 0.9116 - 2s/epoch - 5ms/step
+Média acurácia dos 5 folds pra 32 filters: 91.18333339691162
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 32 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 91.2% das imagens
+Treinando fold 1, com 64 filters
+Epoch 1/5
+750/750 - 46s - loss: 0.4802 - accuracy: 0.8256 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.3062 - accuracy: 0.8894 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2571 - accuracy: 0.9065 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2254 - accuracy: 0.9174 - 45s/epoch - 60ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.2025 - accuracy: 0.9253 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2283 - accuracy: 0.9172 - 4s/epoch - 10ms/step
+Treinando fold 2, com 64 filters
+Epoch 1/5
+750/750 - 46s - loss: 0.4941 - accuracy: 0.8226 - 46s/epoch - 62ms/step
+Epoch 2/5
+750/750 - 46s - loss: 0.3071 - accuracy: 0.8886 - 46s/epoch - 61ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2568 - accuracy: 0.9070 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2242 - accuracy: 0.9182 - 45s/epoch - 60ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.2011 - accuracy: 0.9258 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2312 - accuracy: 0.9184 - 4s/epoch - 10ms/step
+Treinando fold 3, com 64 filters
+Epoch 1/5
+750/750 - 46s - loss: 0.5010 - accuracy: 0.8209 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.3021 - accuracy: 0.8911 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2501 - accuracy: 0.9091 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2173 - accuracy: 0.9216 - 45s/epoch - 60ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1956 - accuracy: 0.9294 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2288 - accuracy: 0.9172 - 4s/epoch - 10ms/step
+Treinando fold 4, com 64 filters
+Epoch 1/5
+750/750 - 46s - loss: 0.4817 - accuracy: 0.8253 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.3028 - accuracy: 0.8901 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2513 - accuracy: 0.9082 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2190 - accuracy: 0.9207 - 45s/epoch - 60ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1940 - accuracy: 0.9292 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2375 - accuracy: 0.9156 - 4s/epoch - 10ms/step
+Treinando fold 5, com 64 filters
+Epoch 1/5
+750/750 - 46s - loss: 0.4822 - accuracy: 0.8254 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.2980 - accuracy: 0.8930 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2476 - accuracy: 0.9104 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2170 - accuracy: 0.9214 - 45s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1931 - accuracy: 0.9286 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2283 - accuracy: 0.9194 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra 64 filters: 91.75666570663452
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 64 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 91.8% das imagens
+Portanto, a melhor quantidade de filters é 64, que possui 91.8 de acurácia.
+Treinando fold 1, com tamanho da camada densa: 64
+Epoch 1/5
+750/750 - 46s - loss: 0.4752 - accuracy: 0.8262 - 46s/epoch - 62ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.2991 - accuracy: 0.8923 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 44s - loss: 0.2499 - accuracy: 0.9095 - 44s/epoch - 59ms/step
+Epoch 4/5
+750/750 - 44s - loss: 0.2174 - accuracy: 0.9204 - 44s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 44s - loss: 0.1955 - accuracy: 0.9294 - 44s/epoch - 59ms/step
+375/375 - 4s - loss: 0.2323 - accuracy: 0.9159 - 4s/epoch - 10ms/step
+Treinando fold 2, com tamanho da camada densa: 64
+Epoch 1/5
+750/750 - 46s - loss: 0.4725 - accuracy: 0.8295 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.3016 - accuracy: 0.8922 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2525 - accuracy: 0.9082 - 45s/epoch - 60ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2199 - accuracy: 0.9200 - 45s/epoch - 60ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1958 - accuracy: 0.9279 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2167 - accuracy: 0.9227 - 4s/epoch - 10ms/step
+Treinando fold 3, com tamanho da camada densa: 64
+Epoch 1/5
+750/750 - 45s - loss: 0.4697 - accuracy: 0.8291 - 45s/epoch - 60ms/step
+Epoch 2/5
+750/750 - 44s - loss: 0.2977 - accuracy: 0.8922 - 44s/epoch - 59ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2487 - accuracy: 0.9091 - 45s/epoch - 59ms/step
+Epoch 4/5
+750/750 - 44s - loss: 0.2177 - accuracy: 0.9206 - 44s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1944 - accuracy: 0.9286 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2397 - accuracy: 0.9137 - 4s/epoch - 10ms/step
+Treinando fold 4, com tamanho da camada densa: 64
+Epoch 1/5
+750/750 - 45s - loss: 0.4766 - accuracy: 0.8299 - 45s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.2946 - accuracy: 0.8932 - 45s/epoch - 61ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2473 - accuracy: 0.9101 - 45s/epoch - 59ms/step
+Epoch 4/5
+750/750 - 45s - loss: 0.2145 - accuracy: 0.9211 - 45s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 44s - loss: 0.1908 - accuracy: 0.9298 - 44s/epoch - 59ms/step
+375/375 - 4s - loss: 0.2369 - accuracy: 0.9172 - 4s/epoch - 10ms/step
+Treinando fold 5, com tamanho da camada densa: 64
+Epoch 1/5
+750/750 - 45s - loss: 0.4742 - accuracy: 0.8280 - 45s/epoch - 60ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.2974 - accuracy: 0.8918 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 45s - loss: 0.2522 - accuracy: 0.9080 - 45s/epoch - 59ms/step
+Epoch 4/5
+750/750 - 44s - loss: 0.2211 - accuracy: 0.9184 - 44s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 44s - loss: 0.1964 - accuracy: 0.9283 - 44s/epoch - 59ms/step
+375/375 - 4s - loss: 0.2667 - accuracy: 0.9041 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra tamanho da camada densa: 64: 91.47333264350891
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 64 e tamanho da camada densa: 64 é capaz de classificar corretamente em média 91.5% das imagens
+Treinando fold 1, com tamanho da camada densa: 128
+Epoch 1/5
+750/750 - 45s - loss: 0.4555 - accuracy: 0.8357 - 45s/epoch - 59ms/step
+Epoch 2/5
+750/750 - 43s - loss: 0.2856 - accuracy: 0.8969 - 43s/epoch - 58ms/step
+Epoch 3/5
+750/750 - 44s - loss: 0.2347 - accuracy: 0.9139 - 44s/epoch - 59ms/step
+Epoch 4/5
+750/750 - 43s - loss: 0.2042 - accuracy: 0.9245 - 43s/epoch - 58ms/step
+Epoch 5/5
+750/750 - 43s - loss: 0.1808 - accuracy: 0.9338 - 43s/epoch - 58ms/step
+375/375 - 4s - loss: 0.2385 - accuracy: 0.9097 - 4s/epoch - 10ms/step
+Treinando fold 2, com tamanho da camada densa: 128
+Epoch 1/5
+750/750 - 48s - loss: 0.4704 - accuracy: 0.8295 - 48s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2904 - accuracy: 0.8938 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2415 - accuracy: 0.9121 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2093 - accuracy: 0.9215 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1850 - accuracy: 0.9314 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2088 - accuracy: 0.9241 - 4s/epoch - 11ms/step
+Treinando fold 3, com tamanho da camada densa: 128
+Epoch 1/5
+750/750 - 47s - loss: 0.4554 - accuracy: 0.8364 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2882 - accuracy: 0.8967 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2403 - accuracy: 0.9127 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2073 - accuracy: 0.9246 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1834 - accuracy: 0.9330 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2251 - accuracy: 0.9179 - 4s/epoch - 11ms/step
+Treinando fold 4, com tamanho da camada densa: 128
+Epoch 1/5
+750/750 - 47s - loss: 0.4617 - accuracy: 0.8336 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 45s - loss: 0.2844 - accuracy: 0.8975 - 45s/epoch - 60ms/step
+Epoch 3/5
+750/750 - 44s - loss: 0.2346 - accuracy: 0.9150 - 44s/epoch - 58ms/step
+Epoch 4/5
+750/750 - 44s - loss: 0.2026 - accuracy: 0.9251 - 44s/epoch - 59ms/step
+Epoch 5/5
+750/750 - 45s - loss: 0.1780 - accuracy: 0.9343 - 45s/epoch - 60ms/step
+375/375 - 4s - loss: 0.2354 - accuracy: 0.9187 - 4s/epoch - 10ms/step
+Treinando fold 5, com tamanho da camada densa: 128
+Epoch 1/5
+750/750 - 47s - loss: 0.4718 - accuracy: 0.8265 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2939 - accuracy: 0.8935 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2462 - accuracy: 0.9101 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2148 - accuracy: 0.9215 - 47s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1877 - accuracy: 0.9316 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2337 - accuracy: 0.9158 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra tamanho da camada densa: 128: 91.72333359718323
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 64 e tamanho da camada densa: 128 é capaz de classificar corretamente em média 91.7% das imagens
+Treinando fold 1, com tamanho da camada densa: 256
+Epoch 1/5
+750/750 - 51s - loss: 0.4586 - accuracy: 0.8339 - 51s/epoch - 68ms/step
+Epoch 2/5
+750/750 - 53s - loss: 0.2821 - accuracy: 0.8982 - 53s/epoch - 71ms/step
+Epoch 3/5
+750/750 - 56s - loss: 0.2326 - accuracy: 0.9154 - 56s/epoch - 74ms/step
+Epoch 4/5
+750/750 - 50s - loss: 0.2004 - accuracy: 0.9256 - 50s/epoch - 67ms/step
+Epoch 5/5
+750/750 - 50s - loss: 0.1723 - accuracy: 0.9361 - 50s/epoch - 67ms/step
+375/375 - 4s - loss: 0.2379 - accuracy: 0.9122 - 4s/epoch - 11ms/step
+Treinando fold 2, com tamanho da camada densa: 256
+Epoch 1/5
+750/750 - 51s - loss: 0.4500 - accuracy: 0.8374 - 51s/epoch - 68ms/step
+Epoch 2/5
+750/750 - 50s - loss: 0.2819 - accuracy: 0.8957 - 50s/epoch - 67ms/step
+Epoch 3/5
+750/750 - 51s - loss: 0.2334 - accuracy: 0.9142 - 51s/epoch - 69ms/step
+Epoch 4/5
+750/750 - 50s - loss: 0.2001 - accuracy: 0.9251 - 50s/epoch - 67ms/step
+Epoch 5/5
+750/750 - 50s - loss: 0.1732 - accuracy: 0.9358 - 50s/epoch - 67ms/step
+375/375 - 4s - loss: 0.2318 - accuracy: 0.9145 - 4s/epoch - 11ms/step
+Treinando fold 3, com tamanho da camada densa: 256
+Epoch 1/5
+750/750 - 50s - loss: 0.4534 - accuracy: 0.8359 - 50s/epoch - 67ms/step
+Epoch 2/5
+750/750 - 50s - loss: 0.2768 - accuracy: 0.8978 - 50s/epoch - 67ms/step
+Epoch 3/5
+750/750 - 50s - loss: 0.2263 - accuracy: 0.9155 - 50s/epoch - 67ms/step
+Epoch 4/5
+750/750 - 51s - loss: 0.1956 - accuracy: 0.9276 - 51s/epoch - 68ms/step
+Epoch 5/5
+750/750 - 50s - loss: 0.1685 - accuracy: 0.9377 - 50s/epoch - 67ms/step
+375/375 - 4s - loss: 0.2224 - accuracy: 0.9190 - 4s/epoch - 11ms/step
+Treinando fold 4, com tamanho da camada densa: 256
+Epoch 1/5
+750/750 - 51s - loss: 0.4494 - accuracy: 0.8364 - 51s/epoch - 68ms/step
+Epoch 2/5
+750/750 - 50s - loss: 0.2764 - accuracy: 0.8991 - 50s/epoch - 66ms/step
+Epoch 3/5
+750/750 - 50s - loss: 0.2259 - accuracy: 0.9154 - 50s/epoch - 67ms/step
+Epoch 4/5
+750/750 - 50s - loss: 0.1938 - accuracy: 0.9281 - 50s/epoch - 67ms/step
+Epoch 5/5
+750/750 - 50s - loss: 0.1672 - accuracy: 0.9375 - 50s/epoch - 66ms/step
+375/375 - 4s - loss: 0.2475 - accuracy: 0.9111 - 4s/epoch - 12ms/step
+Treinando fold 5, com tamanho da camada densa: 256
+Epoch 1/5
+750/750 - 50s - loss: 0.4417 - accuracy: 0.8390 - 50s/epoch - 67ms/step
+Epoch 2/5
+750/750 - 50s - loss: 0.2745 - accuracy: 0.9009 - 50s/epoch - 67ms/step
+Epoch 3/5
+750/750 - 50s - loss: 0.2273 - accuracy: 0.9159 - 50s/epoch - 67ms/step
+Epoch 4/5
+750/750 - 50s - loss: 0.1930 - accuracy: 0.9284 - 50s/epoch - 67ms/step
+Epoch 5/5
+750/750 - 50s - loss: 0.1677 - accuracy: 0.9377 - 50s/epoch - 67ms/step
+375/375 - 4s - loss: 0.2486 - accuracy: 0.9097 - 4s/epoch - 11ms/step
+Média acurácia dos 5 folds pra tamanho da camada densa: 256: 91.33166670799255
+Essa acurácia significa que o modelo usando 2 camada(s) de convolução-pooling, filter: 64 e tamanho da camada densa: 256 é capaz de classificar corretamente em média 91.3% das imagens
+Portanto, o melhor tamanho da camada densa é 128, que possui 91.7 de acurácia.
+Ao final, a melhor combinação foi: 
+2 camada(s) de convolução-pooling, 64 filter(s) e tamanho da camada densa: 128
+Treinando fold 1, com 0.1 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 46s - loss: 0.4662 - accuracy: 0.8307 - 46s/epoch - 62ms/step
+Epoch 2/5
+750/750 - 46s - loss: 0.2910 - accuracy: 0.8957 - 46s/epoch - 61ms/step
+Epoch 3/5
+750/750 - 46s - loss: 0.2460 - accuracy: 0.9106 - 46s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2127 - accuracy: 0.9220 - 47s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1909 - accuracy: 0.9293 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2224 - accuracy: 0.9192 - 4s/epoch - 10ms/step
+Treinando fold 2, com 0.1 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4693 - accuracy: 0.8314 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2975 - accuracy: 0.8922 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2511 - accuracy: 0.9090 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2196 - accuracy: 0.9194 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 48s - loss: 0.1945 - accuracy: 0.9284 - 48s/epoch - 64ms/step
+375/375 - 4s - loss: 0.2153 - accuracy: 0.9243 - 4s/epoch - 10ms/step
+Treinando fold 3, com 0.1 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4697 - accuracy: 0.8300 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2909 - accuracy: 0.8964 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2420 - accuracy: 0.9114 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2113 - accuracy: 0.9230 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1847 - accuracy: 0.9335 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2433 - accuracy: 0.9115 - 4s/epoch - 11ms/step
+Treinando fold 4, com 0.1 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4810 - accuracy: 0.8255 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2975 - accuracy: 0.8922 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 50s - loss: 0.2469 - accuracy: 0.9106 - 50s/epoch - 66ms/step
+Epoch 4/5
+750/750 - 50s - loss: 0.2151 - accuracy: 0.9225 - 50s/epoch - 66ms/step
+Epoch 5/5
+750/750 - 49s - loss: 0.1933 - accuracy: 0.9299 - 49s/epoch - 65ms/step
+375/375 - 4s - loss: 0.2329 - accuracy: 0.9145 - 4s/epoch - 10ms/step
+Treinando fold 5, com 0.1 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 49s - loss: 0.4611 - accuracy: 0.8339 - 49s/epoch - 66ms/step
+Epoch 2/5
+750/750 - 49s - loss: 0.2856 - accuracy: 0.8966 - 49s/epoch - 65ms/step
+Epoch 3/5
+750/750 - 48s - loss: 0.2410 - accuracy: 0.9125 - 48s/epoch - 65ms/step
+Epoch 4/5
+750/750 - 49s - loss: 0.2121 - accuracy: 0.9219 - 49s/epoch - 65ms/step
+Epoch 5/5
+750/750 - 48s - loss: 0.1859 - accuracy: 0.9321 - 48s/epoch - 64ms/step
+375/375 - 4s - loss: 0.2440 - accuracy: 0.9076 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra 0.1 de dropout_rate: 91.54000043869019
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128 e dropout: 0.1 é capaz de classificar corretamente em média 91.5% das imagens
+Treinando fold 1, com 0.3 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5054 - accuracy: 0.8182 - 48s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3177 - accuracy: 0.8868 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2697 - accuracy: 0.9025 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2382 - accuracy: 0.9147 - 47s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.2188 - accuracy: 0.9212 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2200 - accuracy: 0.9197 - 4s/epoch - 10ms/step
+Treinando fold 2, com 0.3 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 47s - loss: 0.5130 - accuracy: 0.8140 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3195 - accuracy: 0.8847 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2699 - accuracy: 0.9028 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 46s - loss: 0.2372 - accuracy: 0.9140 - 46s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 46s - loss: 0.2162 - accuracy: 0.9226 - 46s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2424 - accuracy: 0.9137 - 4s/epoch - 10ms/step
+Treinando fold 3, com 0.3 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 47s - loss: 0.5072 - accuracy: 0.8180 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 46s - loss: 0.3175 - accuracy: 0.8873 - 46s/epoch - 61ms/step
+Epoch 3/5
+750/750 - 46s - loss: 0.2680 - accuracy: 0.9036 - 46s/epoch - 61ms/step
+Epoch 4/5
+750/750 - 46s - loss: 0.2360 - accuracy: 0.9144 - 46s/epoch - 61ms/step
+Epoch 5/5
+750/750 - 48s - loss: 0.2151 - accuracy: 0.9215 - 48s/epoch - 64ms/step
+375/375 - 4s - loss: 0.2198 - accuracy: 0.9202 - 4s/epoch - 10ms/step
+Treinando fold 4, com 0.3 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5096 - accuracy: 0.8146 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 49s - loss: 0.3161 - accuracy: 0.8871 - 49s/epoch - 66ms/step
+Epoch 3/5
+750/750 - 46s - loss: 0.2688 - accuracy: 0.9028 - 46s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 46s - loss: 0.2373 - accuracy: 0.9142 - 46s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.2168 - accuracy: 0.9226 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2369 - accuracy: 0.9173 - 4s/epoch - 10ms/step
+Treinando fold 5, com 0.3 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 47s - loss: 0.4893 - accuracy: 0.8234 - 47s/epoch - 63ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3080 - accuracy: 0.8896 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2610 - accuracy: 0.9062 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 46s - loss: 0.2311 - accuracy: 0.9157 - 46s/epoch - 61ms/step
+Epoch 5/5
+750/750 - 46s - loss: 0.2109 - accuracy: 0.9238 - 46s/epoch - 61ms/step
+375/375 - 4s - loss: 0.2378 - accuracy: 0.9139 - 4s/epoch - 11ms/step
+Média acurácia dos 5 folds pra 0.3 de dropout_rate: 91.69833183288574
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128 e dropout: 0.3 é capaz de classificar corretamente em média 91.7% das imagens
+Treinando fold 1, com 0.5 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5548 - accuracy: 0.8035 - 48s/epoch - 65ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3447 - accuracy: 0.8794 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 48s - loss: 0.2916 - accuracy: 0.8974 - 48s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 48s - loss: 0.2614 - accuracy: 0.9062 - 48s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 48s - loss: 0.2422 - accuracy: 0.9140 - 48s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2461 - accuracy: 0.9114 - 4s/epoch - 11ms/step
+Treinando fold 2, com 0.5 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5699 - accuracy: 0.7979 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3539 - accuracy: 0.8744 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2983 - accuracy: 0.8943 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2707 - accuracy: 0.9036 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.2520 - accuracy: 0.9103 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2348 - accuracy: 0.9197 - 4s/epoch - 10ms/step
+Treinando fold 3, com 0.5 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5497 - accuracy: 0.8067 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 48s - loss: 0.3555 - accuracy: 0.8748 - 48s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 48s - loss: 0.3004 - accuracy: 0.8929 - 48s/epoch - 64ms/step
+Epoch 4/5
+750/750 - 48s - loss: 0.2708 - accuracy: 0.9039 - 48s/epoch - 64ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.2507 - accuracy: 0.9102 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2578 - accuracy: 0.9066 - 4s/epoch - 11ms/step
+Treinando fold 4, com 0.5 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5576 - accuracy: 0.8020 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 46s - loss: 0.3484 - accuracy: 0.8754 - 46s/epoch - 61ms/step
+Epoch 3/5
+750/750 - 44s - loss: 0.2954 - accuracy: 0.8957 - 44s/epoch - 58ms/step
+Epoch 4/5
+750/750 - 43s - loss: 0.2680 - accuracy: 0.9051 - 43s/epoch - 58ms/step
+Epoch 5/5
+750/750 - 44s - loss: 0.2484 - accuracy: 0.9124 - 44s/epoch - 59ms/step
+375/375 - 4s - loss: 0.2543 - accuracy: 0.9080 - 4s/epoch - 10ms/step
+Treinando fold 5, com 0.5 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.5665 - accuracy: 0.8000 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.3507 - accuracy: 0.8748 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2946 - accuracy: 0.8967 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2678 - accuracy: 0.9057 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.2427 - accuracy: 0.9136 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2476 - accuracy: 0.9115 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra 0.5 de dropout_rate: 91.14333152770996
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128 e dropout: 0.5 é capaz de classificar corretamente em média 91.1% das imagens
+Treinando fold 1, com 0.7 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.6639 - accuracy: 0.7666 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.4204 - accuracy: 0.8556 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.3532 - accuracy: 0.8786 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.3273 - accuracy: 0.8898 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.3091 - accuracy: 0.8950 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2727 - accuracy: 0.9084 - 4s/epoch - 10ms/step
+Treinando fold 2, com 0.7 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.6530 - accuracy: 0.7715 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.4086 - accuracy: 0.8599 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.3535 - accuracy: 0.8785 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.3202 - accuracy: 0.8903 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.3042 - accuracy: 0.8956 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2638 - accuracy: 0.9116 - 4s/epoch - 10ms/step
+Treinando fold 3, com 0.7 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.6665 - accuracy: 0.7682 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.4217 - accuracy: 0.8555 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.3609 - accuracy: 0.8765 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 48s - loss: 0.3285 - accuracy: 0.8877 - 48s/epoch - 64ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.3134 - accuracy: 0.8941 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2672 - accuracy: 0.9058 - 4s/epoch - 10ms/step
+Treinando fold 4, com 0.7 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.6427 - accuracy: 0.7736 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.4074 - accuracy: 0.8619 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.3525 - accuracy: 0.8803 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.3220 - accuracy: 0.8906 - 47s/epoch - 62ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.3055 - accuracy: 0.8947 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2615 - accuracy: 0.9067 - 4s/epoch - 10ms/step
+Treinando fold 5, com 0.7 de dropout_rate
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.6520 - accuracy: 0.7706 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.4231 - accuracy: 0.8546 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.3605 - accuracy: 0.8778 - 47s/epoch - 62ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.3282 - accuracy: 0.8885 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.3063 - accuracy: 0.8970 - 47s/epoch - 62ms/step
+375/375 - 4s - loss: 0.2723 - accuracy: 0.9056 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds pra 0.7 de dropout_rate: 90.7616662979126
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128 e dropout: 0.7 é capaz de classificar corretamente em média 90.8% das imagens
+Portanto, o melhor dropout é 0.3, que possui 91.7 de acurácia.
+Treinando fold 1, com batch normalization
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 46s - loss: 0.4071 - accuracy: 0.8562 - 46s/epoch - 61ms/step
+Epoch 2/5
+750/750 - 44s - loss: 0.2840 - accuracy: 0.8996 - 44s/epoch - 58ms/step
+Epoch 3/5
+750/750 - 44s - loss: 0.2484 - accuracy: 0.9117 - 44s/epoch - 58ms/step
+Epoch 4/5
+750/750 - 44s - loss: 0.2230 - accuracy: 0.9210 - 44s/epoch - 58ms/step
+Epoch 5/5
+750/750 - 44s - loss: 0.2045 - accuracy: 0.9270 - 44s/epoch - 59ms/step
+375/375 - 4s - loss: 0.2495 - accuracy: 0.9123 - 4s/epoch - 11ms/step
+Treinando fold 2, com batch normalization
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 49s - loss: 0.4069 - accuracy: 0.8576 - 49s/epoch - 65ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2780 - accuracy: 0.8993 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 48s - loss: 0.2437 - accuracy: 0.9134 - 48s/epoch - 64ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2168 - accuracy: 0.9237 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 48s - loss: 0.1999 - accuracy: 0.9274 - 48s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2617 - accuracy: 0.9131 - 4s/epoch - 11ms/step
+Treinando fold 3, com batch normalization
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4075 - accuracy: 0.8581 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2784 - accuracy: 0.9022 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2429 - accuracy: 0.9139 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2164 - accuracy: 0.9234 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1985 - accuracy: 0.9299 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2639 - accuracy: 0.9087 - 4s/epoch - 11ms/step
+Treinando fold 4, com batch normalization
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4021 - accuracy: 0.8581 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2756 - accuracy: 0.9039 - 47s/epoch - 63ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2390 - accuracy: 0.9147 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2140 - accuracy: 0.9239 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 47s - loss: 0.1974 - accuracy: 0.9278 - 47s/epoch - 63ms/step
+375/375 - 4s - loss: 0.2471 - accuracy: 0.9168 - 4s/epoch - 11ms/step
+Treinando fold 5, com batch normalization
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+750/750 - 48s - loss: 0.4122 - accuracy: 0.8548 - 48s/epoch - 64ms/step
+Epoch 2/5
+750/750 - 47s - loss: 0.2762 - accuracy: 0.9024 - 47s/epoch - 62ms/step
+Epoch 3/5
+750/750 - 47s - loss: 0.2391 - accuracy: 0.9146 - 47s/epoch - 63ms/step
+Epoch 4/5
+750/750 - 47s - loss: 0.2157 - accuracy: 0.9227 - 47s/epoch - 63ms/step
+Epoch 5/5
+750/750 - 43s - loss: 0.1956 - accuracy: 0.9295 - 43s/epoch - 58ms/step
+375/375 - 4s - loss: 0.2782 - accuracy: 0.9019 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds com batch normalization: 91.05666637420654
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128, dropout: 0.3 e com batch normalization é capaz de classificar corretamente em média 91.1% das imagens
+Portanto, possui em média 91.1 de acurácia com o batch normalization.
+Treinando fold 1, com data augmentation
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+1500/1500 - 61s - loss: 0.8956 - accuracy: 0.6740 - val_loss: 0.6549 - val_accuracy: 0.7523 - 61s/epoch - 41ms/step
+Epoch 2/5
+1500/1500 - 60s - loss: 0.6765 - accuracy: 0.7498 - val_loss: 0.5865 - val_accuracy: 0.7906 - 60s/epoch - 40ms/step
+Epoch 3/5
+1500/1500 - 60s - loss: 0.6211 - accuracy: 0.7715 - val_loss: 0.5026 - val_accuracy: 0.8202 - 60s/epoch - 40ms/step
+Epoch 4/5
+1500/1500 - 64s - loss: 0.5867 - accuracy: 0.7859 - val_loss: 0.5534 - val_accuracy: 0.8000 - 64s/epoch - 43ms/step
+Epoch 5/5
+1500/1500 - 62s - loss: 0.5775 - accuracy: 0.7880 - val_loss: 0.5239 - val_accuracy: 0.8033 - 62s/epoch - 41ms/step
+375/375 - 4s - loss: 0.5239 - accuracy: 0.8033 - 4s/epoch - 10ms/step
+Treinando fold 2, com data augmentation
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+1500/1500 - 61s - loss: 0.8974 - accuracy: 0.6713 - val_loss: 0.5519 - val_accuracy: 0.7881 - 61s/epoch - 41ms/step
+Epoch 2/5
+1500/1500 - 60s - loss: 0.6835 - accuracy: 0.7476 - val_loss: 0.4805 - val_accuracy: 0.8282 - 60s/epoch - 40ms/step
+Epoch 3/5
+1500/1500 - 60s - loss: 0.6201 - accuracy: 0.7732 - val_loss: 0.6803 - val_accuracy: 0.7557 - 60s/epoch - 40ms/step
+Epoch 4/5
+1500/1500 - 60s - loss: 0.5974 - accuracy: 0.7824 - val_loss: 0.4371 - val_accuracy: 0.8427 - 60s/epoch - 40ms/step
+Epoch 5/5
+1500/1500 - 60s - loss: 0.5800 - accuracy: 0.7875 - val_loss: 0.4763 - val_accuracy: 0.8271 - 60s/epoch - 40ms/step
+375/375 - 4s - loss: 0.4763 - accuracy: 0.8271 - 4s/epoch - 10ms/step
+Treinando fold 3, com data augmentation
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+1500/1500 - 63s - loss: 0.8690 - accuracy: 0.6824 - val_loss: 0.7349 - val_accuracy: 0.7335 - 63s/epoch - 42ms/step
+Epoch 2/5
+1500/1500 - 61s - loss: 0.6690 - accuracy: 0.7552 - val_loss: 1.3512 - val_accuracy: 0.5894 - 61s/epoch - 41ms/step
+Epoch 3/5
+1500/1500 - 61s - loss: 0.6163 - accuracy: 0.7732 - val_loss: 0.5699 - val_accuracy: 0.8016 - 61s/epoch - 41ms/step
+Epoch 4/5
+1500/1500 - 62s - loss: 0.5848 - accuracy: 0.7859 - val_loss: 0.4254 - val_accuracy: 0.8438 - 62s/epoch - 41ms/step
+Epoch 5/5
+1500/1500 - 58s - loss: 0.5636 - accuracy: 0.7935 - val_loss: 0.6574 - val_accuracy: 0.7703 - 58s/epoch - 39ms/step
+375/375 - 4s - loss: 0.6574 - accuracy: 0.7703 - 4s/epoch - 10ms/step
+Treinando fold 4, com data augmentation
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+1500/1500 - 63s - loss: 0.8991 - accuracy: 0.6712 - val_loss: 0.6019 - val_accuracy: 0.7665 - 63s/epoch - 42ms/step
+Epoch 2/5
+1500/1500 - 61s - loss: 0.6866 - accuracy: 0.7494 - val_loss: 0.7226 - val_accuracy: 0.7480 - 61s/epoch - 41ms/step
+Epoch 3/5
+1500/1500 - 61s - loss: 0.6298 - accuracy: 0.7684 - val_loss: 0.5127 - val_accuracy: 0.8153 - 61s/epoch - 41ms/step
+Epoch 4/5
+1500/1500 - 61s - loss: 0.5979 - accuracy: 0.7822 - val_loss: 0.4530 - val_accuracy: 0.8333 - 61s/epoch - 41ms/step
+Epoch 5/5
+1500/1500 - 61s - loss: 0.5772 - accuracy: 0.7916 - val_loss: 0.5531 - val_accuracy: 0.7919 - 61s/epoch - 41ms/step
+375/375 - 4s - loss: 0.5531 - accuracy: 0.7919 - 4s/epoch - 10ms/step
+Treinando fold 5, com data augmentation
+Conv2D
+MaxPooling2D
+Conv2D
+MaxPooling2D
+Epoch 1/5
+1500/1500 - 63s - loss: 0.8918 - accuracy: 0.6739 - val_loss: 0.6332 - val_accuracy: 0.7670 - 63s/epoch - 42ms/step
+Epoch 2/5
+1500/1500 - 61s - loss: 0.6765 - accuracy: 0.7525 - val_loss: 1.0542 - val_accuracy: 0.6888 - 61s/epoch - 40ms/step
+Epoch 3/5
+1500/1500 - 61s - loss: 0.6190 - accuracy: 0.7735 - val_loss: 0.5325 - val_accuracy: 0.8043 - 61s/epoch - 41ms/step
+Epoch 4/5
+1500/1500 - 61s - loss: 0.5952 - accuracy: 0.7822 - val_loss: 0.5667 - val_accuracy: 0.7993 - 61s/epoch - 41ms/step
+Epoch 5/5
+1500/1500 - 61s - loss: 0.5748 - accuracy: 0.7908 - val_loss: 0.6664 - val_accuracy: 0.7678 - 61s/epoch - 40ms/step
+375/375 - 4s - loss: 0.6664 - accuracy: 0.7678 - 4s/epoch - 10ms/step
+Média acurácia dos 5 folds com data augmentation: 79.20666813850403
+Essa acurácia significa que o modelo usando layer: 2, filter: 64, tamanho da camada densa: 128, dropout: 0.3, com batch normalization e com data augmentation é capaz de classificar corretamente em média 79.2% das imagens
+Portanto, possui em média 79.2 de acurácia.
+{'acuracia': [91.07499957084656, 91.75666570663452, 91.72333359718323, 91.69833183288574, 91.05666637420654, 79.20666813850403]}
